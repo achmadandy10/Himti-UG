@@ -1,4 +1,5 @@
-import { TextFieldAnimation } from "../../../components/text_field/TextField"
+import Form from "../../../components/form/Form"
+import TextField from "../../../components/text_field/TextField"
 import { RegisterContainer, RegisterContentLeft, RegisterContentRight, RegisterTitle } from "./Register.elements"
 
 const Register = () => {
@@ -11,9 +12,16 @@ const Register = () => {
 
                 <RegisterContentRight>
                     <RegisterTitle>Created an Account!</RegisterTitle>
-                    <TextFieldAnimation
-                        
-                    />
+                    
+                    <Form>
+                        <TextField
+                            autoFocus
+                            id="npm"
+                            name="npm"
+                            label="NPM"
+                            autoComplete="npm"
+                        />
+                    </Form>
                 </RegisterContentRight>
             </RegisterContainer>
         </>
