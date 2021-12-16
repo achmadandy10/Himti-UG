@@ -14,6 +14,10 @@ const GlobalStyles = createGlobalStyle`
         --text-color-light: #A6A6A6;
         --body-color: #F9F9F9;
         --container-color: #FFF;
+        /* --danger-color: #FFF;
+        --warning-color: #FFF;
+        --success-color: #FFF;
+        --info-color: #FFF; */
         --rgba-color-0-5: rgba(0, 0, 0, 0.5);
         --custom-color-1: #0E539E;
 
